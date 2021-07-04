@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TestApp.MainPage"
+             NavigationPage.HasNavigationBar="false">
+
+    <StackLayout BackgroundColor="WhiteSmoke">
+        
+        
+        <Image Source="LogoCulturally"
+               WidthRequest="{OnPlatform iOS=1000, Android=1250}"
+               HorizontalOptions="Center"
+               BackgroundColor="Black"/>
+        <StackLayout BackgroundColor="PeachPuff"
+                     Margin="0,0,0,20">
+            
+            <Label Text="Read about the latest arts news through editorials, event coverage, artist interviews, and features!!!"
+            TextColor="White"
+            FontSize="Large"               
+            FontFamily="Walkway"
+            Margin="40,20,40,20"
+            HorizontalOptions="CenterAndExpand"
+            VerticalOptions="CenterAndExpand"
+            BackgroundColor="PeachPuff"/>
+
+            <Button Text="Go To Website"
+                    TextColor="White"
+                    FontFamily="Walkway"
+                    BorderColor="White"
+                    BorderWidth="2"
+                    BackgroundColor="DarkOrange"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="CenterAndExpand"
+                    Clicked="GoWebsite"/>
+
+        </StackLayout>
+
+        
+
+        <StackLayout>
+            <CollectionView ItemsSource="{Binding Editions}"
+                        SelectionMode="Single"
+                        Margin="0,40,20,0">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Padding="10"
+                          RowDefinitions="Auto,*"
+                          ColumnDefinitions="Auto,*">
+                            <ImageButton Grid.RowSpan="2"
+                               Margin="50,0,0,0"
+                               Source="{Binding ImageUrl}"
+                               Aspect="AspectFill"
+                               Clicked="ShowMagazine"          
+                               HeightRequest="220"
+                               WidthRequest="150"/>
+                            <Label Grid.Column="1"
+                               Text="{Binding Name}"
+                               TextColor="DarkKhaki"
+                               FontAttributes="Bold"
+                               FontFamily="LG"
+                               FontSize="Large"
+                               VerticalOptions="End"
+                               Margin="10,20,0,0"/>
+                            <Label Grid.Row="1"
+                               Grid.Column="1"
+                               FontFamily="LG"
+                               FontSize="Medium"
+                               FontAttributes="Italic"
+                               Text="{Binding Date}"
+                               Margin="10,0,0,20"
+                               VerticalOptions="Start"/>
+                            <Image Source="Shelf"
+                               Grid.Row="2"
+                               Grid.ColumnSpan="2"
+                               VerticalOptions="Start"
+                               WidthRequest="{OnPlatform iOS=400, Android=395}"/>
+
+                        </Grid>
+
+
+
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+
+
+            </CollectionView>
+
+        </StackLayout>
+
+        
+            
+            
+        
+        
+
+
+    </StackLayout>
+
+</ContentPage>

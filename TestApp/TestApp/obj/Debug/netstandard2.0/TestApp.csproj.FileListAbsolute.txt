@@ -1,0 +1,14 @@
+C:\Users\ANDRES FELIPE\source\repos\TestApp\TestApp\TestApp\bin\Debug\netstandard2.0\TestApp.deps.json
+C:\Users\ANDRES FELIPE\source\repos\TestApp\TestApp\TestApp\bin\Debug\netstandard2.0\TestApp.dll
+C:\Users\ANDRES FELIPE\source\repos\TestApp\TestApp\TestApp\bin\Debug\netstandard2.0\ref\TestApp.dll
+C:\Users\ANDRES FELIPE\source\repos\TestApp\TestApp\TestApp\bin\Debug\netstandard2.0\TestApp.pdb
+C:\Users\ANDRES FELIPE\source\repos\TestApp\TestApp\TestApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\ANDRES FELIPE\source\repos\TestApp\TestApp\TestApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\ANDRES FELIPE\source\repos\TestApp\TestApp\TestApp\obj\Debug\netstandard2.0\TestApp.AssemblyInfoInputs.cache
+C:\Users\ANDRES FELIPE\source\repos\TestApp\TestApp\TestApp\obj\Debug\netstandard2.0\TestApp.AssemblyInfo.cs
+C:\Users\ANDRES FELIPE\source\repos\TestApp\TestApp\TestApp\obj\Debug\netstandard2.0\TestApp.dll
+C:\Users\ANDRES FELIPE\source\repos\TestApp\TestApp\TestApp\obj\Debug\netstandard2.0\ref\TestApp.dll
+C:\Users\ANDRES FELIPE\source\repos\TestApp\TestApp\TestApp\obj\Debug\netstandard2.0\TestApp.pdb
+C:\Users\ANDRES FELIPE\source\repos\TestApp\TestApp\TestApp\obj\Debug\netstandard2.0\TestApp.csprojAssemblyReference.cache
+C:\Users\ANDRES FELIPE\source\repos\TestApp\TestApp\TestApp\obj\Debug\netstandard2.0\ViewerPage.xaml.g.cs
+C:\Users\ANDRES FELIPE\source\repos\TestApp\TestApp\TestApp\obj\Debug\netstandard2.0\XamlC.stamp
